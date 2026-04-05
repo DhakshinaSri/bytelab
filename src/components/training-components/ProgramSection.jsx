@@ -17,7 +17,7 @@ export default function ProgramSection({
             <div className="p-2 rounded-lg bg-[#5ce1e6]/20 text-[#001919]">
               <Icon size={28} />
             </div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#001919]">
+            <h2 className="text-3xl sm:text-3xl lg:text-3xl font-bold text-[#001919]">
               {title}
             </h2>
           </div>
@@ -48,7 +48,7 @@ export default function ProgramSection({
             <div className="absolute left-0 top-2 w-[3px] h-full bg-gradient-to-b from-[#5ce1e6] to-[#001919] rounded-full"></div>
 
             <h3 className="text-lg sm:text-xl font-semibold text-[#001919] mb-4">
-              Key Learning:
+              They learn:
             </h3>
 
             <ul className="space-y-3 text-gray-600 text-lg sm:text-base">

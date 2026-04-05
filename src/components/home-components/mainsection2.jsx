@@ -43,7 +43,7 @@ export default function HeroSection() {
           transition={{ delay: 0.8, duration: 0.8, ease: "easeOut" }}
           viewport={{ amount: 0.3, once: true }}
         >
-          <Button text="Read More" to="/about" />
+          <Button text="View Opportunities" variant="gotobutton" to="/placement-support" />
         </motion.div>
       </div>
 

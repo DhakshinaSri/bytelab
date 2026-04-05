@@ -20,8 +20,8 @@ export default function ContactSection() {
           </h3>
 
           <p className="text-gray-600 mb-8 leading-relaxed">
-            Have questions about our HR services or need professional workforce
-            solutions? Our team is ready to assist you.
+            Have questions or ready to start your journey? Connect with BYTE LAB 
+            and take the next step toward building a successful career in IT.
           </p>
 
           <div className="space-y-8 text-gray-700">
@@ -31,12 +31,12 @@ export default function ContactSection() {
 
               <div className="flex items-center space-x-3 mb-4 font-semibold text-black">
                 <Phone className="text-[#3AA7C2] w-5 h-5" />
-                <span>+91-9445393068 | +91-9080175318</span>
+                <span>+91-XXXXX XXXXX</span>
               </div>
 
               <div className="flex items-center space-x-3 font-semibold text-black">
                 <Mail className="text-[#3AA7C2] w-5 h-5" />
-                <span>Email: hr@ghrt.in</span>
+                <span>Email: info@bytelab.in</span>
               </div>
             </div>
 
@@ -45,8 +45,7 @@ export default function ContactSection() {
               <div className="flex items-start space-x-3 font-semibold text-black">
                 <MapPin className="text-[#3AA7C2] w-5 h-5 mt-1" />
                 <div>
-                  <p className="mb-2">No 13 MIC, TNHB, Keelakaranai, </p>
-                  <p className="mb-2">Maraimalai Nagar, Chennai 602204</p>
+                  <p className="mb-2">Address</p>
                 </div>
               </div>
             </div>

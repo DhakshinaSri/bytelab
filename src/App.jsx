@@ -8,11 +8,14 @@ import Bytelab from "@/pages/Bytelab";
 import Contact from "@/pages/Contact";
 import PlacementSupport from "@/pages/PlacementSupport";
 import TrainingPrograms from "@/pages/TrainingPrograms";
+import Footer from "@/components/common-components/Footer";
+import ScrollToTop from "@/components/common-components/ScrollToTop";
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <ScrollToTop />
 
       <Routes>
         {/* Public Routes */}
@@ -21,9 +24,9 @@ function App() {
         <Route path="/bytelab" element={<Bytelab />} />
         <Route path="/training-programs" element={<TrainingPrograms />} />
         <Route path="/placement-support" element={<PlacementSupport />} />
-        <Route path="/training-programs" element={<TrainingPrograms />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
